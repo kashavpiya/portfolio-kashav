@@ -3,21 +3,10 @@ import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_4vo0w8i', 'template_wi872o8', form.current, 'uoM9ushoeBXEVbAaS')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-    };
+  
 
   return (
     <section id='contact'>
@@ -41,7 +30,7 @@ const Contact = () => {
         </div>
 
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form}>
           <input type='text' name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Email@email.com' required/>
           <textarea name='msg' placeholder='Your Message' rows='7' required/>
