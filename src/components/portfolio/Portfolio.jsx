@@ -5,12 +5,44 @@ import IMG2 from '../../assets/chosen-star.jpg'
 import IMG3 from '../../assets/car-project.png'
 import IMG4 from '../../assets/sorting-project.png'
 import IMG5 from '../../assets/mavs.png'
+import IMG6 from '../../assets/ps.jpg'
 
 const Portfolio = () => {
   return (
     <section id='project'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+
+
+      <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
+
+        <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG6} alt='powershower app'></img>
+            </div>
+            <h3>Power Shower App</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://www.powershower.app" className='btn ' target='_blank'>Website</a>
+              <a href="https://apps.apple.com/us/app/power-shower/id6474043510" className='btn' target='_blank'>App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=com.powershower.powershower&hl=en_US" className='btn' target='_blank'>Play Store</a>
+              <a href="https://github.com/kashavpiya/IOT-app" className='btn btn-primary' target='_blank'>Code Sample</a>
+            </div>
+          </article>
+        </div>
+
+        <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
+          <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG5} alt='Mavs Adventure'></img>
+            </div>
+            <h3>Mav's Adventure</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/kashavpiya/Project-D" className='btn' target='_blank'>Code Sample</a>
+              <a href="https://kashavpiya19.itch.io/petsadventure" className='btn btn-primary' target='_blank'>Download Here</a>
+            </div>
+          </article>
+        </div>
+
 
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
@@ -57,16 +89,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-img'>
-            <img src={IMG5} alt='Mavs Adventure'></img>
-          </div>
-          <h3>Mav's Adventure</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/kashavpiya/Project-D" className='btn' target='_blank'>Code Sample</a>
-            <a href="https://kashavpiya19.itch.io/petsadventure" className='btn btn-primary' target='_blank'>Download Here</a>
-          </div>
-        </article>
+        
       </div>
     </section>
   )

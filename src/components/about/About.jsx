@@ -24,13 +24,7 @@ const About = () => {
           <article className='about__card'>
             <FaAward className='about__icon'/>
             <h5>Experience</h5>
-            <small>2+ Years Working</small>
-          </article>
-
-          <article className='about__card'>
-            <FiUsers className='about__icon'/>
-            <h5>Clients</h5>
-            <small>5+ in QuadCities</small>
+            <small>2+ Years Professional Experience</small>
           </article>
 
           <article className='about__card'>
