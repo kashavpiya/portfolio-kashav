@@ -1,13 +1,14 @@
 .container.contact__container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (if you want vertical centering) */
+  flex-direction: column; /* Keeps the articles in a column layout */
 }
 .contact__options {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.2rem;
+    align-items: center;
 }
 
 .contact__option {

@@ -16,29 +16,29 @@ const Experience = () => {
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <AiFillCheckCircle classname='experience__details-icon'/>
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>HTML/CSS</h4>
+                <small className='text-light'>4+ Years</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>4+ Years</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
-                <h4>React</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>ReactJS</h4>
+                <small className='text-light'>2+ Years</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiFillCheckCircle classname='experience__details-icon'/>
+              <div>
+                <h4>ReactNative</h4>
+                <small className='text-light'>2+ Years</small>
               </div>
             </article>
           </div>
@@ -51,28 +51,28 @@ const Experience = () => {
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
                 <h4>Python</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>4+ Years</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>3+ Years</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
                 <h4>SQL</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>3+ Years</small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillCheckCircle classname='experience__details-icon'/>
               <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>AWS</h4>
+                <small className='text-light'>1+ Year</small>
               </div>
             </article>
             
@@ -84,31 +84,32 @@ const Experience = () => {
             <h3>Data Analytics</h3>
             <div className='experience__content'>
               <article className='experience__details'>
+                  <AiFillCheckCircle classname='experience__details-icon'/>
+                  <div>
+                    <h4>SQL</h4>
+                      <small className='text-light'>3+ Years</small>
+                  </div>
+                </article>
+              <article className='experience__details'>
                 <AiFillCheckCircle classname='experience__details-icon'/>
                 <div>
                   <h4>R</h4>
-                    <small className='text-light'>Experienced</small>
+                    <small className='text-light'>2+ Years</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle classname='experience__details-icon'/>
                 <div>
-                  <h4>Excel/Sheets</h4>
-                    <small className='text-light'>Experienced</small>
+                  <h4>PowerBI</h4>
+                    <small className='text-light'>1+ Years</small>
                 </div>
               </article>
-              <article className='experience__details'>
-                <AiFillCheckCircle classname='experience__details-icon'/>
-                <div>
-                  <h4>SQL</h4>
-                    <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
+              
               <article className='experience__details'>
                 <AiFillCheckCircle classname='experience__details-icon'/>
                 <div>
                   <h4>Tableau</h4>
-                    <small className='text-light'>Intermediate</small>
+                    <small className='text-light'>3+ Years</small>
                 </div>
               </article>
             </div>

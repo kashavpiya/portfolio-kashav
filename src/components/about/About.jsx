@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <p>
-        I'm a senior studying Computer Science who has always loved creating solutions and challenging technological problems. I have experience in Software Development, Web Development, Data Analytics and Game Development along with some prior research experience in IoT. In addition to attending different hackathon, and project-based program,, I enjoy learning new languages and frameworks for side projects. I’m currently building most frequently with: Python, Java and C#. I am also familiar with R, SQL, JavaScript and others. Post-graduation in May 2023, I am hoping to have the opportunity to work within tech industry as that is what I'm passionate about.
+        I'm a Computer Science graduate who has always loved creating solutions and challenging technological problems. I have experience in Full Stack Software Development, and Data Analytics. In addition to working as a Full Stack Software Engineer, I enjoy working on my own side projects. I’m currently building most frequently with: Java, Python and JavaScript. I am also familiar with R, SQL, C# and others. Post graduation, I have been working at a startup and I am hoping to have the opportunity to work within tech industry as that is what I'm passionate about.
         </p>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
