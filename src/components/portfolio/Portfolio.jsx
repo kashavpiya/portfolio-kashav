@@ -6,6 +6,8 @@ import IMG3 from '../../assets/car-project.png'
 import IMG4 from '../../assets/sorting-project.png'
 import IMG5 from '../../assets/mavs.png'
 import IMG6 from '../../assets/ps.jpg'
+import IMG7 from '../../assets/alexa.jpg'
+import IMG8 from '../../assets/psLogo.jpg'
 
 const Portfolio = () => {
   return (
@@ -45,6 +47,27 @@ const Portfolio = () => {
 
 
       <div className='container portfolio__container'>
+
+        <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG7} alt='alexa lambda'></img>
+            </div>
+            <h3>Alexa Skill Lambda</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/kashavpiya/AlexaLambda" className='btn btn-primary' target='_blank'>GitHub</a>
+            </div>
+          </article>
+
+          <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG8} alt='IotBackend'></img>
+            </div>
+            <h3>Spring based Application</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/kashavpiya/IoTAppBackend" className='btn btn-primary' target='_blank'>GitHub</a>
+            </div>
+          </article>
+
         <article className='portfolio__item'>
           <div className='portfolio__item-img'>
             <img src={IMG1} alt='gooselake website'></img>
