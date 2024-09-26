@@ -8,6 +8,7 @@ import IMG5 from '../../assets/mavs.png'
 import IMG6 from '../../assets/ps.jpg'
 import IMG7 from '../../assets/alexa.jpg'
 import IMG8 from '../../assets/psLogo.jpg'
+import IMG9 from '../../assets/wateroo.png'
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,20 @@ const Portfolio = () => {
 
 
       <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
+
+          <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG9} alt='wateroo app'></img>
+            </div>
+            <h3>Wateroo App</h3>
+            <p className='portfolio__item-language'>JavaScript, React Native</p>
+            <p className='portfolio__item-desc'>This React Native application is designed to help users stay hydrated by tracking their daily water intake and providing customizable reminders. The app addresses the common problem of people forgetting to drink enough water throughout the day, which can lead to dehydration, fatigue, and various health issues. Many people struggle to remember to drink enough water, especially in busy or sedentary lifestyles. This app solves this problem by offering regular reminders and an easy way to track water consumption, making it simpler for users to meet their hydration needs and maintain their overall health.</p>
+            <div className="portfolio__item-cta">
+              <a href="https://play.google.com/apps/testing/com.kashavpiya.waterooapp" className='btn' target='_blank'>Play Store - Closed Testing</a>
+              <a href="https://github.com/kashavpiya/DrinkWaterApp" className='btn btn-primary' target='_blank'>Code Sample</a>
+            </div>
+          </article>
+        
 
         <article className='portfolio__item'>
             <div className='portfolio__item-img'>
