@@ -9,6 +9,7 @@ import IMG6 from '../../assets/ps.jpg'
 import IMG7 from '../../assets/alexa.jpg'
 import IMG8 from '../../assets/psLogo.jpg'
 import IMG9 from '../../assets/wateroo.png'
+import IMG10 from '../../assets/f1.png'
 
 const Portfolio = () => {
   return (
@@ -20,7 +21,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
             <div className='portfolio__item-img'>
-              <img src={IMG8} alt='f1 analysis app'></img>
+              <img src={IMG10} alt='f1 analysis app'></img>
             </div>
             <h3>F1 Lap by Lap Analysis</h3>
             <div className="portfolio__item-cta">
@@ -29,7 +30,7 @@ const Portfolio = () => {
           </article>
         </div>
 
-        
+
       <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
 
           <article className='portfolio__item'>
