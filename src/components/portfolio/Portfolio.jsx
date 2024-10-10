@@ -16,7 +16,20 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
+      <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
 
+        <article className='portfolio__item'>
+            <div className='portfolio__item-img'>
+              <img src={IMG8} alt='f1 analysis app'></img>
+            </div>
+            <h3>F1 Lap by Lap Analysis</h3>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/kashavpiya/f1_analysis" className='btn btn-primary' target='_blank'>GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        
       <div className='container portfolio__container1' style={{ marginBottom: '2.5rem' }}>
 
           <article className='portfolio__item'>
